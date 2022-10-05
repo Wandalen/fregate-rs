@@ -121,12 +121,6 @@ passed through to the caller of the API. Errors potentially contain sensitive
 information (such as secret keys, URLs, etc), and one should be careful
 about passing errors directly to the caller.
 
-### ❕ Performance: async trait.
-
-Async traits use dynamic dispatch under the hood, which has runtime performance cost.
-- [Async trait downsides](https://internals.rust-lang.org/t/async-traits-the-less-dynamic-allocations-edition/13048/2)
-- [Async trait under the hood](https://smallcultfollowing.com/babysteps/blog/2019/10/26/async-fn-in-traits-are-hard/)
-
 ### ❕ Structural: lack of features
 
 Forward control over features of exposed dependencies and dependencies themselves.
