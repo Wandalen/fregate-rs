@@ -77,7 +77,7 @@ What is somewhat excessive.
 Structs like `NoHealth` and `AlwaysReadyAndAlive` should not pollute the root namespace.
 https://www.lurklurk.org/effective-rust/wildcard.html
 
-### ❕ Architectural: framework vs toolkit approach ( vendorlock vs agnostic )
+### ❕ Architectural: framework vs toolkit approach
 
 Overuse of inversion of control and adapter/facade patterns is obeservable, what is typical for frameworks.
 
